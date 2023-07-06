@@ -1,35 +1,63 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>POLO</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NEOTEQ AR Services</title>
   <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
+  <div class="overlay">
+    <div class="video-container">
+    </div>
+    <div class="welcome-box">
+      <h2>Welcome to the AR World</h2>
+      <p>Experience the future of augmented reality with NEOTEQ.</p>
+      <button class="dismiss-button" id="dismissButton">Dismiss</button>
+    </div>
+  </div>
+
   <header>
     <nav>
       <div class="logo">
-        <a href="index.html"><img src="img/logo.png" alt="POLO Logo"></a>
+        <a href="index.html"><img src="img/logo.png" alt="NEOTEQ Logo"></a>
       </div>
       <ul>
         <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="arportal.html">AR Portal</a></li>
       </ul>
     </nav>
   </header>
   
   <main>
-    <section>
-      <a href="section1.html">
-        <h1>Welcome to POLO</h1>
-        <p>made by Danny.</p>
-      </a>
+    <section class="hero-section">
+      <div class="hero-content">
+        <h1>Unlock the Potential of AR</h1>
+        <p>Transform your reality with our cutting-edge AR services.</p>
+      </div>
+    </section>
+    <section class="portfolio-section">
+      <div class="portfolio-item">
+        <img src="img/portfolio-item1.png" alt="AR Portal">
+        <div class="portfolio-item-details">
+          <h3>AR Portal</h3>
+          <p>Step into a virtual world with our interactive AR portal. Immerse yourself in captivating experiences and explore limitless possibilities.</p>
+          <a href="arportal.html" class="portfolio-item-link">Explore</a>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <img src="img/portfolio-item2.png" alt="Model Tracking">
+        <div class="portfolio-item-details">
+          <h3>Model Tracking</h3>
+          <p>Experience the magic of model tracking. Our AR technology overlays 3D models onto real-world objects, enabling visualization and interactive engagement.</p>
+          <a href="#" class="portfolio-item-link">Explore</a>
+        </div>
+      </div>
+      <!-- Add more portfolio items as needed -->
     </section>
   </main>
 
   <footer>
-    <p>© 2023 POLO. All rights reserved.</p>
+    <p>© 2023 NEOTEQ. All rights reserved.</p>
   </footer>
   
   <script src="js/app.js"></script>
